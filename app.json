@@ -2,6 +2,7 @@
   "expo": {
     "name": "mine-app",
     "slug": "mine-app",
+    "description":"this is an app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57813db6-91fa-4c67-9954-c9689f4d9f58"
+      }
     }
   }
 }

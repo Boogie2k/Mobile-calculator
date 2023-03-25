@@ -1,0 +1,21 @@
+{
+  "cli": {
+    "version": ">= 3.8.1"
+  },
+  "build": {
+    "calculator": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "calculator2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "calculator3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
